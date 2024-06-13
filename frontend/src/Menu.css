@@ -1,0 +1,62 @@
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for responsive layout */
+    margin: 0 auto; /* Center the menu horizontally */
+    padding: 1rem;
+    background-color: black;
+    flex-basis: 100%; /* Allow menu to fill available width */
+  }
+  .menuall{
+    background-color: #070000;
+  }
+  
+  .gallery {
+    display: flex; /* Use flexbox for individual galleries as well */
+    flex-direction: column;
+    /* Adjust width and margin for spacing (consider screen size) */
+    width: calc(25% - 1rem); 
+    margin: 2rem; 
+    box-sizing: border-box; /* Ensure padding and border don't affect width */
+    background-color: #070000; /* Light background for better contrast */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 5px; /* Add subtle rounded corners */
+    flex: 0 0 calc(25% - 1rem); /* Define flexible sizing with spacing */
+  }
+  
+  .gallery img {
+    width: 100%; /* Make images fill the gallery width */
+    height: 250px; /* Adjust image height as desired */
+  }
+  
+  .item-info {
+    padding: 1rem; /* Add padding inside the info section */
+    text-align: center; /* Center text vertically and horizontally */
+    color: aliceblue;
+  }
+  
+  .item-info h3 {
+    margin: 0.5rem 0; /* Adjust margin between title and other content */
+  }
+  
+  .price,
+  .desc {
+    font-size: 0.8rem; /* Slightly smaller text for price and description */
+    margin-bottom: 0.25rem; /* Add some space between lines */
+    color: #faf5f5; /* Gray text for better readability */
+  }
+  .click{
+    background-color:whitesmoke; /* Green */
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 11px;
+     margin-left:1300px; 
+    
+  }

@@ -1,0 +1,63 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  .tag{
+    float:right;
+    margin-left: 1000px;
+    color: white;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .navbar .active {
+    background-color: #04AA6D;
+  }
+  
+  .display {
+    height: 100vh; 
+    background: url('C:\Users\222de\Documents\table_management\frontend\public\images\restlogo.jpg') no-repeat center center fixed; /* Fixed background */
+    background-size: cover; /* Cover the entire screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .display img {
+    display: none; /* Hide the image element */
+  }
+
+  button{
+    background-color: #04AA6D;
+  }
+
+
+  
